@@ -1,0 +1,261 @@
+/*Nav bar mobile responsive*/
+@media (min-width: 768px) {
+  .navbar-brand
+      {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  }
+
+
+  #mainNav{
+    color: lightblue;
+  }
+
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+
+/*logo size*/
+.logo{
+    height: 40px;
+ 
+  }
+
+  
+ /*header styling*/
+ header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container1 {
+  position: relative;
+  z-index: 2;
+  height: 155%;
+  margin-bottom: 10%;
+  
+}
+
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/*container 1 styling*/
+ .c1{
+   width:60%;
+   margin: 0 auto;
+   background: rgba(73, 73, 73, 0.55);
+   color:white;
+ }
+
+ /*container 2 styling*/
+ .c2{
+  background-color: white;
+  width:60%;
+  margin: 0 auto;
+  opacity: 0.15;
+}
+
+ 
+
+.album1{
+  text-align: center;
+}
+
+
+.c1 img{
+  width: 100%;
+  padding: 10px;
+}
+
+.c1 h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.c1 h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/**/
+.head1{
+  width: 100%;
+  
+}
+
+.head1 h2 {
+  text-align: center;
+  background-color: white;
+  color: grey;
+  
+}
+
+
+
+/*sets margin top height in the containers*/
+.con1 {
+    margin-top: -7%;
+}
+
+
+/*Album link styling*/
+.links{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+.grid-item {
+  margin: 0px 10px;
+  padding: 5px;
+}
+
+/*Container link styling*/
+.c1 a:link, a:visited {
+  background-color: #1EA2DC;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  width: 135px;
+}
+
+.c1 a:hover, a:active {
+  background-color: #5AA5C7;
+}
+
+.container1 a:link, a:visited {
+  background-color: #1EA2DC;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.container1 a:hover, a:active {
+  background-color: #5AA5C7;
+}
+
+
+/* Scrolling background image*/
+.bg {
+  /* The image used */
+  background-image: url('../img/dyh.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg1 {
+  /* The image used */
+  background-image: url('../img/browne.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-col1{
+  margin: 0 auto;
+}
+
+.my-row1{
+  margin-top: -85px;
+}
+
+.my-col{
+  padding-top: 3%;
+  
+}
+
+.tickets{
+  padding: 5px;
+  display: inline-block;
+}
+
+/*Social media Icons*/
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.s-m{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.s-m a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #1EA2DC;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 22px;
+}
+.s-m a:hover{
+  background: #e67e22;
+}
+.s-m a i{
+  transition: 0.4s all;
+}
+.s-m a:hover > i{
+  transform: scale(1.6) rotate(25deg);
+}
+
+
